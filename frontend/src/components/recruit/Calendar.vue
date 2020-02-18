@@ -22,11 +22,14 @@
         <p class="point-font">{{ day }}</p>
       </v-col>
     </v-row>
-    <div class="calendar-scroll">
+    <div id="calendar-scroll" class="calendar-scroll">
       <v-row v-for="week in weeks" :key="week" class="week-wrapper">
         <v-col v-for="day in 7" :key="day" class="wrap day-wrapper">
           <v-row class="title-wrapper">
-            <p class="title point-font">{{ getCalendarDate(7*(week-1)+day-1).substring(8,10)}}</p>
+            <p
+              :class="{'today':getCalendarDate(7*(week-1)+day-1) == today.toISOString().substring(0,10)}"
+              class="title point-font"
+            >{{ getCalendarDate(7*(week-1)+day-1).substring(8,10)}}</p>
           </v-row>
           <div class="company-wrapper">
             <v-row
@@ -171,6 +174,8 @@ export default {
       }
     },
     getRecruit() {
+      // var size = this.getCalendar.length
+
       this.getCalendar.forEach(company => {
         let start = company.startTime.substring(0, 10);
         let end = company.endTime.substring(0, 10);
@@ -180,6 +185,12 @@ export default {
         if (this.recruit.hasOwnProperty(end)) {
           this.recruit[company.endTime.substring(0, 10)].end.push(company);
         }
+
+        // size -= 1
+        // if(size == 0){
+        //   this.scrollMove()
+        // }
+
       });
     },
     getCalendarDate(days) {
@@ -228,6 +239,11 @@ export default {
       } else {
         this.createCalendar(this.year, this.month);
       }
+    },
+    scrollMove(){
+      var scorll = document.getElementsByClassName("today");
+      var calendar_scroll = document.getElementById("calendar-scroll")
+      console.log(calendar_scroll,scorll[0])
     }
   },
   created() {
@@ -236,7 +252,7 @@ export default {
     this.date = this.today.getDate();
 
     this.makeCalendarPage();
-  }
+  },
 };
 </script>
 <style lang="scss">
@@ -323,6 +339,9 @@ $end: #3f4b5e;
           color: #777777;
           text-align: center;
           font-size: 0.85rem;
+          &.today {
+            color: #ff6813;
+          }
         }
       }
       .company-wrapper {

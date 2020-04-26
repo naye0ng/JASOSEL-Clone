@@ -4,7 +4,8 @@
 
 ### 시연 영상
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/2VK6UbJtVYc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![demo](http://img.youtube.com/vi/2VK6UbJtVYc/0.jpg)](https://youtu.be/2VK6UbJtVYc?t=0s)
+
 [유튜브에서 재생](https://youtu.be/2VK6UbJtVYc)
 
 
@@ -110,7 +111,7 @@
 ## IV. 최종 발표
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/11lpBn0HRR8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![demo](http://img.youtube.com/vi/11lpBn0HRR8/0.jpg)](https://youtu.be/11lpBn0HRR8?t=0s)
 
 [유뷰브에서 재생](https://youtu.be/11lpBn0HRR8)
 

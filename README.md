@@ -2,8 +2,10 @@
 
 > 스마일게이트 서버 개발 캠프 4기, 자소설 닷컴 클론 코딩 프로젝트
 
-[![demo](http://img.youtube.com/vi/2VK6UbJtVYc/0.jpg)](https://youtu.be/2VK6UbJtVYc?t=0s)
+### 시연 영상
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2VK6UbJtVYc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[유튜브에서 재생](https://youtu.be/2VK6UbJtVYc)
 
 
 
@@ -27,7 +29,7 @@
 2. 자소서 저장 
    - 분당 약 1000건의 요청이 몰리는 것을 처리하는 것을 목표로 함
 3. 실시간 채팅  
-   - reverse proxy를 활용하여 1000명 이상의 사용자가 채팅할 수 있는 서버 구현
+   - 1000명 이상의 사용자가 채팅할 수 있는 서버를 구현하고 성능을 최대한 개선하기
 
   ### 기본 기능
 
@@ -42,10 +44,12 @@
 
 ### 🦄 김나영 [github](https://github.com/naye0ng)
 
+> 👉 [채팅 서버 성능 개선 발표 동영상](https://www.youtube.com/watch?v=11lpBn0HRR8&feature=youtu.be&t=580s)
+
 - vue.js를 이용한 `프론트엔드` 
 
-
 - Django channels 기반의 `채팅 서버` 
+
 - 데이터 크롤링을 통한 `DB 구축`
 
 
@@ -53,7 +57,9 @@
 ### 🐿 명다연 [github](https://github.com/meme2367)
 
 - Spring boot 기반의 `채용 공고 서버`
+
 - redis를 이용한 `실시간 랭킹`
+
 - HAproxy를 이용한` API Gateway` 
 
 
@@ -61,7 +67,9 @@
 ### 🐵 채윤병 [github](https://github.com/yunb2)
 
 - Spring security 기반의 `인증 서버`
+
 - Spring boot를 이용한 `자기소개서 서버`
+
 - OAuth를 활용한 `소셜 로그인` 
 
 
@@ -96,4 +104,12 @@
 ├── frontend     // 프론트엔드
 └── data    // 크롤링 스크립트
 ```
+
+
+
+## IV. 최종 발표
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/11lpBn0HRR8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[유뷰브에서 재생](https://youtu.be/11lpBn0HRR8)
 

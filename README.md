@@ -38,7 +38,7 @@
 - 실시간 랭킹
 - 자기소개서 CRUD
 
-
+<br />
 
 ## II. 팀원 및 역할
 
@@ -72,7 +72,7 @@
 
 - OAuth를 활용한 `소셜 로그인` 
 
-
+<br />
 
 ## III. 구성
 
@@ -111,5 +111,6 @@
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/11lpBn0HRR8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 [유뷰브에서 재생](https://youtu.be/11lpBn0HRR8)
 
